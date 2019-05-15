@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create elements</title>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+            <script src="jquery-3.1.1.min.js"></script>
+        
+        <script>
+              
+        var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+
+        db.transaction(function(tx){
+            tx.executeSql("CREATE TABLE IF NOT EXISTS User (id int);");
+        });
+        var start = performance.now();
+
+        for(var i = 0; i < 1000; i++){
+            db.transaction(function(tx){
+                tx.executeSql("INSERT INTO User (id) values (" + Math.random() + ");");
+            });
+        }
+        var end = performance.now();
+        console.log("Dodanie liczb zajeło " + (end - start) + " millisekund.")
+
+        </script>
+    </body>
+</html>

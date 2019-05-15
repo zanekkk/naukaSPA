@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create elements</title>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+            <script src="jquery-3.1.1.min.js"></script>
+        
+        <script>
+        var start = performance.now();
+        for(var i = 0; i < 100000; i++){
+            localStorage.setItem(i, Math.random());
+        }
+        var end = performance.now();
+        console.log("Dodanie liczb zajeło" + (start - end) + " millisekund.")
+
+        </script>
+    </body>
+</html>

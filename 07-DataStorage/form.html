@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create elements</title>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+            <script src="jquery-3.1.1.min.js"></script>
+        <form name="form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname">
+            </div>
+
+        </form>
+            <button onclick="save()" >Save</button>
+            <button onclick="restore()">Restore</button>
+        <script>
+            
+            function deleteFromStorage(){
+                localStorage.removeItem('person');
+            }
+
+            function restore(){
+                var person = JSON.parse(localStorage.getItem('person'));
+
+                document.forms.form.name.value = person.name;
+                document.forms.form.surname.value = person.surname;
+            }
+
+            function save(){
+                var person = {
+                name: document.forms.form.name.value,
+                surname: document.forms.form.surname.value
+            }
+                console.log(document.forms.form.name.value);
+                localStorage.setItem('person', JSON.stringify(person));
+            }
+        </script>
+    </body>
+</html>

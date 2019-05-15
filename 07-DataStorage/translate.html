@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create elements</title>
+		<meta charset="UTF-8">
+    </head>
+    <body>
+            <script src="jquery-3.1.1.min.js"></script>
+        <form name="form" onsubmit="save()">
+                <button onclick="show()">click</button>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname">
+            </div>
+            <button onclick="save()" >click</button>
+        </form>
+        <script>
+            var person = JSON.parse('{"name": "Evelyn","surname": "James","contact": {"email": "sjames0@discuz.net","phone": "850 747 835"}}');
+            console.log(person);
+
+            function show(){
+                console.log(person);
+            }
+
+            function save(){
+                console.log(person);
+                localStorage.setItem('person', JSON.stringify(person));
+            }
+        </script>
+    </body>
+</html>

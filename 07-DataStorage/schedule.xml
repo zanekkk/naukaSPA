@@ -1,0 +1,187 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<plan-zajec typ="G" id="100821" nazwa="KrDZIs3011Io" od="2019-05-15" do="2019-05-29">
+<okres od="2019-05-15" do="2019-05-29" nazwa="2019-05-15 do 2019-05-29" wybrany="tak"/>
+<okres od="2018-09-29" do="2019-02-17" nazwa="2018-09-29 do 2019-02-17"/>
+<okres od="2019-02-18" do="2019-09-30" nazwa="2019-02-18 do 2019-09-30"/>
+<okres od="2017-10-01" do="2018-09-30" nazwa="2017-10-01 do 2018-09-30"/>
+<zajecia>
+<termin>2019-05-15</termin>
+<dzien>Śr</dzien>
+<od-godz>09:45</od-godz>
+<do-godz>11:15 (2g.)</do-godz>
+<przedmiot>
+System informacji marketingowej w przedsiębiorstwie
+</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-910">dr Marek Rawski</nauczyciel>
+<sala>Paw.D sala 3</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-15</termin>
+<dzien>Śr</dzien>
+<od-godz>11:30</od-godz>
+<do-godz>13:00 (2g.)</do-godz>
+<przedmiot>Programowanie systemów rozproszonych</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-1045">prof. UEK Paweł Wołoszyn</nauczyciel>
+<sala>Paw.F 106</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-15</termin>
+<dzien>Śr</dzien>
+<od-godz>13:15</od-godz>
+<do-godz>14:45 (2g.)</do-godz>
+<przedmiot>Techniki rozwiązywania problemów informatycznych</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-1045">prof. UEK Paweł Wołoszyn</nauczyciel>
+<sala>Paw.S sala 3</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-15</termin>
+<dzien>Śr</dzien>
+<od-godz>16:45</od-godz>
+<do-godz>18:15 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>1 gr.</uwagi>
+</zajecia>
+<zajecia>
+<termin>2019-05-15</termin>
+<dzien>Śr</dzien>
+<od-godz>18:30</od-godz>
+<do-godz>20:00 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>2 gr.</uwagi>
+</zajecia>
+<zajecia>
+<termin>2019-05-16</termin>
+<dzien>Cz</dzien>
+<od-godz>16:45</od-godz>
+<do-godz>18:15 (2g.)</do-godz>
+<przedmiot>BHP i ergonomia</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-928">dr Bernard Bińczycki</nauczyciel>
+<sala>Paw.C sala B</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-21</termin>
+<dzien>Wt</dzien>
+<od-godz>10:30</od-godz>
+<do-godz>11:15 (1g.)</do-godz>
+<przedmiot>Psychologia</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-486">prof. dr hab. Marek Motyka</nauczyciel>
+<sala>Paw.D sala 3</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-21</termin>
+<dzien>Wt</dzien>
+<od-godz>11:30</od-godz>
+<do-godz>13:00 (2g.)</do-godz>
+<przedmiot>Programowanie systemów mobilnych</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.S sala 7</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-21</termin>
+<dzien>Wt</dzien>
+<od-godz>13:15</od-godz>
+<do-godz>14:45 (2g.)</do-godz>
+<przedmiot>Programowanie systemów mobilnych</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-22</termin>
+<dzien>Śr</dzien>
+<od-godz>09:45</od-godz>
+<do-godz>10:30 (1g.)</do-godz>
+<przedmiot>
+System informacji marketingowej w przedsiębiorstwie
+</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-910">dr Marek Rawski</nauczyciel>
+<sala>Paw.D sala 3</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-22</termin>
+<dzien>Śr</dzien>
+<od-godz>13:15</od-godz>
+<do-godz>14:00 (1g.)</do-godz>
+<przedmiot>Techniki rozwiązywania problemów informatycznych</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-1045">prof. UEK Paweł Wołoszyn</nauczyciel>
+<sala>Paw.S sala 3</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-22</termin>
+<dzien>Śr</dzien>
+<od-godz>16:45</od-godz>
+<do-godz>18:15 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>1 gr.</uwagi>
+</zajecia>
+<zajecia>
+<termin>2019-05-22</termin>
+<dzien>Śr</dzien>
+<od-godz>18:30</od-godz>
+<do-godz>20:00 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>2 gr.</uwagi>
+</zajecia>
+<zajecia>
+<termin>2019-05-28</termin>
+<dzien>Wt</dzien>
+<od-godz>13:15</od-godz>
+<do-godz>14:45 (2g.)</do-godz>
+<przedmiot>Programowanie systemów mobilnych</przedmiot>
+<typ>ćwiczenia</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-29</termin>
+<dzien>Śr</dzien>
+<od-godz>11:30</od-godz>
+<do-godz>13:00 (2g.)</do-godz>
+<przedmiot>Programowanie systemów rozproszonych</przedmiot>
+<typ>wykład</typ>
+<nauczyciel moodle="-1045">prof. UEK Paweł Wołoszyn</nauczyciel>
+<sala>Paw.F 106</sala>
+</zajecia>
+<zajecia>
+<termin>2019-05-29</termin>
+<dzien>Śr</dzien>
+<od-godz>16:45</od-godz>
+<do-godz>18:15 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>1 gr.</uwagi>
+</zajecia>
+<zajecia>
+<termin>2019-05-29</termin>
+<dzien>Śr</dzien>
+<od-godz>18:30</od-godz>
+<do-godz>20:00 (2g.)</do-godz>
+<przedmiot>Programowanie aplikacji webowych SPA</przedmiot>
+<typ>wykład do wyboru</typ>
+<nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+<sala>Paw.A 115 lab. Win8, Office16</sala>
+<uwagi>2 gr.</uwagi>
+</zajecia>
+</plan-zajec>

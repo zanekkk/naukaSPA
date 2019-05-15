@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create DOM elements</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+	<script src=".\jquery-3.1.1.min.js"></script>
+
+	<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
+
+		<script>
+
+			console.log(document.querySelector('h3'));
+			$('h3').mouseover(function () {
+				document.querySelector("h3").innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią";
+				console.log("nad");
+			})
+
+			$('h3').mouseout(function () {
+				document.querySelector("h3").innerHTML= "Sticks and stones may break my bones, but words will never harm me.";
+			})
+			// Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią
+			
+		</script>
+	</body>
+</html>

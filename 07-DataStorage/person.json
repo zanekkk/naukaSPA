@@ -1,0 +1,44 @@
+{
+    "persons":{
+      "person":[{
+        "name": "Jadzia",
+        "surname": "Jodek",
+        "age": 25,
+        "gender": "female",
+        "email": "sadf@fasdf.pl",
+        "phone": 123123123123,
+        "adress": "ADRES",
+        "interests":[{
+          "name":"Pianino"},{
+          "name":"Muzyka"}
+          ]
+      },
+      {
+        "name": "Andrzej",
+        "surname": "Baton",
+        "age": 30,
+        "gender": "male",
+        "email": "sasdfdf@fasdf.pl",
+        "phone": 1231231231,
+        "adress": "ADRES",
+        "interests":[{
+          "name":"Sport"},{
+          "name":"Muzyka"}
+          ]
+      },
+      {
+        "name": "Ela",
+        "surname": "Majak",
+        "age": 15,
+        "gender": "female",
+        "email": "saasdfdf@fasdf.pl",
+        "phone": 123123123,
+        "adress": "ADRES",
+        "interests":[{
+          "name":"Koszykówka"},{
+          "name":"Muzyka"}
+          ]
+      }
+      ]
+    }
+  }

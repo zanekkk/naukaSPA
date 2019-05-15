@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create DOM elements</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+
+		<script src=".\jquery-3.1.1.min.js"></script>
+		<script>
+			var table = document.createElement("table");
+			var tbody = document.createElement("tbody");
+
+			var thead = document.createElement("thead");
+			// tr.appendChild("<th>Name</th><th>Instrment</th>");
+			// thead.appendChild(tr);
+
+			for(var i = 0; i < 1 ; i++){
+				var tr = document.createElement("tr");
+
+				for (var j = 0; j < 2; j++){
+					var th = document.createElement("th");
+
+					var cellText = document.createTextNode("TYTUŁY");
+
+					th.appendChild(cellText);
+					tr.appendChild(th);
+				}
+
+				thead.appendChild(tr)
+			}
+
+			table.appendChild(thead)
+			for (var i = 0; i < 2; i++) {
+
+				var tr2 = document.createElement("tr");
+
+				for (var j = 0; j < 2; j++) {
+				var td = document.createElement("td");
+				var cellText = document.createTextNode("cell in row "+i+", column "+j);
+				td.appendChild(cellText);
+				tr2.appendChild(td);
+			}
+
+				tbody.appendChild(tr2);
+
+			}
+
+			table.appendChild(tbody);
+			document.body.appendChild(table);
+			table.setAttribute("border", "2");
+
+		</script>
+	</body>
+</html>
